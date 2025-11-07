@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/*Compila tailwindcss en modo watch
+npx tailwindcss/cli */
+/*archivo de entrada en nuestro proyecto
+es el archivo tailwind.css
+-i ./src/input.css */
+/*archivo de salida en nuestro proyecto
+sera style.css
+-o ./src/output.css --watch*/
+
+/*tenemos que ejecutar el comando en la terminal
+npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css --watch
+*/
